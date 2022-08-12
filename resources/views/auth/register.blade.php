@@ -33,8 +33,8 @@
     @endif
 
     <p>
-        {{ __('Already have an account?') }} <a href="{{ localized_route('login') }}">
-            {{ __('Sign in.') }}
+        {{ __('If you already have an account, please') }} <a href="{{ localized_route('login') }}">
+            {{ __('sign in.') }}
         </a>
     </p>
 </x-app-layout>
